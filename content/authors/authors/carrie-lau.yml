@@ -1,0 +1,13 @@
+name: Carrie Lau
+bio: |
+  Project Management | UX/UI | Front-End | Graphic Design 
+  I am passionate about design, as much as I enjoy diving and reading. 
+  I appreciate designs which can solve problems and influence human behaviours. I particulary enjoy pixelated artwork and anything with retro style.
+avatar: ./avatars/dennis-brotzky.jpg
+social:
+  - url: https://unsplash.com
+  - url: https://stackoverflow.com
+  - url: https://github.com
+  - url: https://github.com
+  - url: https://github.com
+featured: true
