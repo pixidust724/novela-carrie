@@ -2,7 +2,7 @@
 title: My first portfolio
 author: Carrie Lau
 date: 2020-04-30
-hero: ./images/alvanonHero.png
+hero: ./images/alvanon-website.png
 excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
 ---
 
