@@ -3,128 +3,93 @@ title: Interactive Wine and Dinning Experience
 author: Carrie Lau
 date: 2019-07-16
 hero: ./images/mhdCover.png
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+excerpt: A joint programme with GAA and Moët Hennessy to craft a "New Retail" luxury experience to consumer both on & offline
 ---
+Moët Hennessy is the Wines and Spirits division of LVMH. The group of 25 wines and spirits Maisons is like no other in the world. This is a joint acceleration programme offered by GAA from HKSTP (Hong Kong Science and Technology Parks Corporation) and Moët Hennessy Asia Pacific, who supervises the marketing and distribution in the Asia Pacific Region. In this project, it was my honour to represent my company MyiCellar and having the chance to work with Digital Marketing Director from Moët Hennessy to create innovation solution to disrupt the Wine and Spirit industry with new retail experience. 
 
-My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+### Business Challenge
+1. Help crafting crafting a "New Retail" luxury experience to consumer both on & offline.
+2. Increase visibility in both retail & on-trade environment
+3. Big data analysis to better understand and engage consumers
 
-## Headers
-
-# H1
-
-It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Emphasis
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-## Lists
-
-1. First ordered list item
-2. Another item
-3. Actual numbers don't matter, just that it's a number
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
-
-## Links
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-## Images
+### Product Proposal
 
 <div className="Image__Small">
   <img
-    src="./images/article-image-2.jpg"
-    title="Logo Title Text 1"
-    alt="Alt text"
+    src="./images/M.H Proposal v0.2 -02.jpg"
+    title="Product Proposal 2"
+    alt="Product Proposal 2"
+  />
+   <img
+    src="./images/M.H Proposal v0.2 -03.jpg"
+    title="Product Proposal 3"
+    alt="Product Proposal 3"
+  />
+    <img
+    src="./images/M.H Proposal v0.2 -04.jpg"
+    title="Product Proposal 4"
+    alt="Product Proposal 4"
+  />
+   <img
+    src="./images/M.H Proposal v0.2 -05.jpg"
+    title="Product Proposal 5"
+    alt="Product Proposal 5"
+  />
+  <img
+    src="./images/M.H Proposal v0.2 -06.jpg"
+    title="Product Proposal 5"
+    alt="Product Proposal 5"
+  />
+  <img
+    src="./images/M.H Proposal v0.2 -07.jpg"
+    title="Product Proposal 5"
+    alt="Product Proposal 5"
+  />
+  <img
+    src="./images/M.H Proposal v0.2 -11.jpg"
+    title="Product Proposal 5"
+    alt="Product Proposal 5"
+  />
+  <img
+    src="./images/M.H Proposal v0.2 -12.jpg"
+    title="Product Proposal 5"
+    alt="Product Proposal 5"
+  />
+  <img
+    src="./images/M.H Proposal v0.2 -13.jpg"
+    title="Product Proposal 5"
+    alt="Product Proposal 5"
   />
 </div>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+### Solution
+<div className="Image__Large">
+  <img
+    src="./images/wineMenu.png"
+    title="Moët Hennesy Wine Menu"
+    alt="Moët Hennesy Wine Menu"
+  />
+</div>
 
-## Code and Syntax Highlighting
+**Digital Wine Menu** was presented in this acceleration programme. Traditional wine menu is confusing and does not provide further information for example the most important for wine and dine is the wine pairing experience. 
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+### Problem Statement
+Base on the exisiting problem of traditional wine menu, we have come up with few HMW questions: 
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+1. **How Might We get more understanding with the brand story and pairing suggestion**
 
-### JSX
+2. **How Might We better understand our customers**
 
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
+3. **How Might We engaged with wine fans**
 
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
+### Pilot Test
+We have selected 3 pilot restaurants and estimated 2 months implementation and validation.
 
-## Blockquotes
+### How Moët Hennessy can be benefited?
+We believed that a Digital Wine Menu could be seamlessly adopted and a digital menu could potentially improve sales for LVMH brand by 7%.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
+We believe the impact could be much higher for example it is eco-friendly, allow online marketing campaign, create an inventory-less restaurants and it can be the first online point of sales from restaurants.
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+### Outlook
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
-## Horizontal Rule
-
-Horizontal Rule
-
-Three or more...
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+MHD and GAA really like our solution and we became one of the shortlisted finalist. This experience of taking part in the acceleration programme has benefit my learning curve a lot in terms of gaining the business perspectives and insights. The acceleration programme also comes with a series of intensive training, from there I was able to take part in many entrepreneurship lesson, from corporate taxation, funding and digital marketing. I would like to thank you MyiCellar allow me to take the lead and driving this project.
