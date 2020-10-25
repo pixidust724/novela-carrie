@@ -22,6 +22,11 @@ module.exports = {
         url: `https://www.linkedin.com/in/claume/`,
       },
       {
+        name: `medium`,
+        url: `https://medium.com/@carrielau`,
+
+      },
+      {
         name: `dribbble`,
         url: `https://dribbble.com/claume`,
       },
