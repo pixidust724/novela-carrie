@@ -3,5 +3,43 @@ title: Research Assistant at Remote Villiage
 author: Carrie Lau
 date: 2019-10-16
 hero: ./images/digiDom.png
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+excerpt: Digitization in rural area in Germany. Project Puderbach is aiming to replace a total of 13 information boxes with digital display.
 ---
+
+I was helping in this project as a student assistant at the Universität of Siegen. The concept is that digitization can contribute to a better quality of life in rural areas. The project takes place in three main villages as a model village, they are Arfeld, Raumland, and Puderbach.
+
+### Project Background
+In the small village of Puderbach with around 500 inhabitants, there are a total of 13 information boxes on which the activities of the village and the clubs are made known. If dates change, one person will be busy for at least one hour to go through all the boxes in the village and to exchange the notices. 
+
+Therefore the idea is to create a digital bulletin board that can also be controlled from home would enable quick, uncomplicated updates. Event information could be combined with general information on the projects and activities in the villages, supplemented by a presentation of the associations with the relevant contact persons in the village.
+
+### Solution
+A [public screen](https://www.digitale-dorfmitte.de/projekt/public-screen/) in the village community center that is visible from the outside through the glass door and can be controlled via an app. Mounted mobile on a stand, the screen can also be used for events in the village community center, from technology cafes for all generations to watch football together or anything conceivable.
+
+### Digital Bullentins using Raspberry-Pi
+<div className="Image__Small">
+  <img
+    src="./images/digiDom_raspberry-pi.jpg"
+    title="Digital Bullentins using Raspberry-Pi"
+    alt="Digital Bullentins using Raspberry-Pi"
+  />
+    <img
+    src="./images/digiDom_yodeck.jpg"
+    title="Digital Bullentins with yodeck"
+    alt="Digital Bullentins with yodeck"
+  />
+</div>
+
+<!-- <div class="Image__Small">
+  <YouTube videoId="FjHGZj2IjBk"/>
+  <figcaption>With Small Video</figcaption>
+</div> -->
+
+
+<!-- <div className="Image__Small">
+  <img
+    src="./images/digiDom_yodeck.jpg"
+    title="Digital Bullentins with yodeck"
+    alt="Digital Bullentins with yodeck"
+  />
+</div> -->

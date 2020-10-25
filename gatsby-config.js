@@ -39,6 +39,7 @@ module.exports = {
         contentPosts: "content/posts",
         contentAuthors: "content/authors",
         basePath: "/",
+        // mailchimp: true, // make sure this is true!
         authorsPage: true,
         sources: {
           local: true,
@@ -46,6 +47,12 @@ module.exports = {
         },
       },
     },
+    // {
+    //   resolve: 'gatsby-plugin-mailchimp',
+    //   options: {
+    //     endpoint: '', // add your MC list endpoint here; see plugin repo for instructions
+    //   },
+    // },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
