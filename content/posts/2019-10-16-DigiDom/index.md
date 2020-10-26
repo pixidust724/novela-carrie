@@ -23,23 +23,35 @@ A [public screen](https://www.digitale-dorfmitte.de/projekt/public-screen/) in t
     title="Digital Bullentins using Raspberry-Pi"
     alt="Digital Bullentins using Raspberry-Pi"
   />
-    <img
+</div>
+
+<div className="Image__Small">
+  <img
     src="./images/digiDom_yodeck.jpg"
     title="Digital Bullentins with yodeck"
     alt="Digital Bullentins with yodeck"
   />
 </div>
 
-<!-- <div class="Image__Small">
-  <YouTube videoId="FjHGZj2IjBk"/>
-  <figcaption>With Small Video</figcaption>
-</div> -->
+In this student job, I was able to suggest and implement the chosen digital signage software. Playing around with Raspberry-Pi was fun, I was able to install Yodeck on top of the device, it is a cloud-based digital signage software platform.
 
-
-<!-- <div className="Image__Small">
+### Testing the Digital Signage
+<div className="Image__Small">
   <img
-    src="./images/digiDom_yodeck.jpg"
-    title="Digital Bullentins with yodeck"
-    alt="Digital Bullentins with yodeck"
+    src="./images/digiDom_signageTest.jpg"
+    title="Testing the Digital Signage"
+    alt="Testing the Digital Signage"
   />
-</div> -->
+    <img
+    src="./images/digiDom_before.jpg"
+    title="Testing the Digital Signage"
+    alt="Testing the Digital Signage"
+  />
+  <figCaption>Before installation the digital board at the community hall</figCaption>
+    <img
+    src="./images/digiDom_final.jpg"
+    title="Testing the Digital Signage"
+    alt="Testing the Digital Signage"
+  />
+    <figCaption>Final installation with the help from my colleague</figCaption>
+</div>

@@ -3,128 +3,59 @@ title: Community Nurse Platform
 author: Carrie Lau
 date: 2019-11-26
 hero: ./images/communityNurse.png
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+excerpt: A platform for community nurse to check if there is any new open health check-up case, manage their existing patients, community nurse will receive a review by the patients or patient's close relatives, regarding the overall service. 
 ---
+Hong Kong a city that holds over 7 million inhabitants, being recognized as the fourth-most densely populated region in the world. A solid, optimize and smooth health care system is very important to such a dense and busy city. 
 
-My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+The project community nurse is a platform to connect all the community nurses in the city and respond to patient's newly created cases. Unlike nurse in residency, community nurse provides nursing care to patients usually at their home or in a local health care center. They carry out a huge range of work, often operating alone or in small teams. 
 
-## Headers
+### Design Tasks
+* Logo Design 
+* Website Design Development (Desktop and responsive version)
 
-# H1
-
-It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-## Emphasis
-
-Emphasis, aka italics, with _asterisks_ or _underscores_.
-
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
-
-Combined emphasis with **asterisks and _underscores_**.
-
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-## Lists
-
-1. First ordered list item
-2. Another item
-3. Actual numbers don't matter, just that it's a number
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
-
-## Links
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-## Images
+### Logo Design
+<div className="Image__Small">
+  <img
+    src="./images/communityNurse_LogoDesign.png"
+    title="Community Nurse Logo Design"
+    alt="Community Nurse Logo Design"
+  />
+  <figCaption> Proposed few ideas for the company's logo</figCaption>
+</div>
 
 <div className="Image__Small">
   <img
-    src="./images/article-image-2.jpg"
-    title="Logo Title Text 1"
-    alt="Alt text"
+    src="./images/communityNurse_Icon.png"
+    title="Community Nurse Icon Design"
+    alt="Community Nurse Icon Design"
   />
+  <figCaption> Design deliverables include a set of icons </figCaption>
 </div>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+### Landing Page and Portal Design
+<div className="Image__Small">
+  <img
+    src="./images/communityNurse_LandingPage.png"
+    title="Community Nurse Landing Page"
+    alt="Community Nurse Landing Page"
+  />
+  <figCaption> Community nurse landing page design with services that offered</figCaption>
+</div>
 
-## Code and Syntax Highlighting
+<div className="Image__Small">
+  <img
+    src="./images/communityNurse_Service.png"
+    title="Community Nurse Service Portal"
+    alt="Community Nurse Service Portal"
+  />
+  <figCaption>Here is the design for the portal when received case</figCaption>
+</div>
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
-
-### JSX
-
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
-
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-## Blockquotes
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
-## Horizontal Rule
-
-Horizontal Rule
-
-Three or more...
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+<div className="Image__Small">
+  <img
+    src="./images/communityNurse_caseFinish.png"
+    title="Community Nurse Service Portal"
+    alt="Community Nurse Service Portal"
+  />
+  <figCaption> Message when case is finished </figCaption>
+</div>

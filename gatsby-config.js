@@ -3,9 +3,9 @@ module.exports = {
     title: `Carrie Lau`,
     name: `Carrie Lau Porfolio`,
     siteUrl: `https://carrielau.com/`,
-    description: `This is my description that will be used in the meta tags and important for search results`,
+    description: `PSM, Project Manager, UX/UI Designer, Web Designer and software enginner, open to job in Germany`,
     hero: {
-      heading: `Hello people, I'm Carrie. From 🇭🇰🇬🇧🇩🇪`,
+      heading: `Hello, I'm Carrie. From 🇭🇰 currently in 🇩🇪, studying M.Sc in Human Computer interaction `,
       maxWidth: 652,
     },
     social: [

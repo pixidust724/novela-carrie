@@ -3,128 +3,105 @@ title: Smart Home Appliance - An Automatic Kitchen Ventilation
 author: Carrie Lau
 date: 2019-12-04
 hero: ./images/ioTCover.png
-excerpt: With the growing community interest in Gatsby, we hope to create more resources that make it easier for anyone to grasp the power of this incredible tool.
+excerpt: In this project, we have created a prototype for an automatic kitchen ventilator, which turns on automatically once someone starts cooking.
 ---
 
-My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
+In this project, we have created a prototype for an automatic kitchen ventilator, which turns on automatically once someone starts cooking, using multiple sensors like temperature, humidity and gas particles concentration sensors.
 
-## Headers
+The project is shipped with a monitoring cross-platform mobile app that indicates whether the kitchen ventilator is on or off, and also shows the current live values of temperature, humidity and gas particles concentration.
 
-# H1
+### IoT and Energy Efficiency
+In the pre-IoT era, the traditional energy-management system would collect a sample of energy usage at an interval. The traditional system is good to get energy-consumption data, but it doesn’t help you with alerts in case of spikes, curating usage pattern, predicting the seasonal demand, or suggesting appropriate configuration.
 
-It is recommended to NOT use H1s as it is reserved for the article heading. Any H1 is set as an H2.
+Also, in the pre-IoT era, the motor load test was a lengthy and cumbersome affair. Engineers used slip tests and electrical tests with a digital stroboscope. They had to spend hours with the equipment to obtain samples. Even then, the data collected was only a sample, and not real time.
 
-## H2
+With the IoT in place, the analyses can occur on real-time data from the motor. That makes the analysis quick, painless, and more accurate. IoT brings real-time alerts, ability to predict energy demand, usage patterns, and ways to optimize energy consumption.
 
-### H3
+### Motivation
+With the advance development of Internet of Things (IoT), we can make use of the technologies that bring convenience and services for the smart home consumers. By definition A smart home is a place with heterogeneous systems to many front devices with the support of embedded information and communication architectures.
 
-#### H4
+<div className="Image__Medium">
+  <img
+    src="./images/ioTMockup.png"
+    title="Mobile application for kitchen ventilator UI mockup"
+    alt="Mobile application for kitchen ventilator UI mockup"
+  />
+  
+  <figCaption> Mobile application for kitchen ventilator UI mockup </figCaption>
+</div>
 
-##### H5
 
-###### H6
+There are many benefits when implementing this automatic kitchen ventilation system, for example cooking in an energy efficient and eco-friendly way.
+Automatic kitchen ventilation system also relied on a heuristic approach when kitchen users forget to turn on the ventilation while cooking and that can lead to fatal domestic inhalation injury from hazardous gas.
 
-## Emphasis
+In this prototype project, we have built an automatic kitchen ventilation system. There are several motivations behind building this system. However, the main goal is to establish a positive cooking experience for kitchen users that not only enjoy the time when cooking but also saving energy when cooking.
 
-Emphasis, aka italics, with _asterisks_ or _underscores_.
+### Supplies and Sensors
+For this project, we have used the Osoyoo NodeMCU IOT Programming Learning Starter Kit, which provided us with the main and basic supplies needed for any IoT project, we have also used some other sensors and supplies that were not provided by the kit in order to make the prototype.
 
-Strong emphasis, aka bold, with **asterisks** or **underscores**.
+Below is a list of the used supplies:
+- 1x NodeMCU Micro-controller (ESP8266 Wi-Fi SoC)
+- **1x MQ-2 Gas Sensor**
+- 1x DHT11 Sensor
+- **1x 3D-Printed Housing (box & cover)**
+- 1x SG90 Micro Servo Motor
+- 1x Solderless Prototype Breadboard
+- **1x RGB LED**
+- 1x 10Kohm Resistor
+- 1x Micro USB Cable
+- **1x Power Bank**
+- 13x F/F Jumper Wires
 
-Combined emphasis with **asterisks and _underscores_**.
+Where the supplies in bold are the ones that were not provided by the Osoyoo NodeMCU IOT Programming Learning Starter Kit.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+### Software 
+For making this project, we have used Arduino IDE to configure the NodeMCU, we have also used TinkerCad for designing the 3D model of the casing and cover, as well as WebStorm, XCode, Android Studio, Firebase, Laravel for the mobile app, Photoshop was also used for editing graphics in the app.
 
-## Lists
+### Procedure
+For prototyping we have used the Solderless Prototype Breadboard, which helped us connecting and testing all the sensors and connections.
+<div className="Image__Small">
+  <img
+    src="./images/ioTSCT.png"
+    title="Sensors Connections Testing"
+    alt="Sensors Connections Testing"
+  />
+  <figCaption> Sensors Connections Testing </figCaption>
+</div>
 
-1. First ordered list item
-2. Another item
-3. Actual numbers don't matter, just that it's a number
-
-- Unordered list can use asterisks
-
-* Or minuses
-
-- Or pluses
-
-## Links
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-## Images
+The sensors as well as the servo-motor and a feedback RGB lights were all connected directly to the NodeMCU with their respective resistors, as seen in the following diagram simulation.
 
 <div className="Image__Small">
   <img
-    src="./images/article-image-2.jpg"
-    title="Logo Title Text 1"
-    alt="Alt text"
+    src="./images/ioTSimulation.png"
+    title="IoT Simulation Design"
+    alt="IoT Simulation Design"
   />
+  <figCaption> Breadboard Simulation of Circuit Connections </figCaption>
 </div>
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+After making sure that everything is working correctly, we starting 3D modeling the housing for the prototype, and the cover, were we decided to go with the most minimalistic and smallest possible design. So, we created a box that fits all of the sensors, feedback components as the Fan and the RGB
+LED, as well as the NodeMCU.
 
-## Code and Syntax Highlighting
+Multiple models were printed out until the final result was achieved, as seen in the figure below.
 
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
+<div className="Image__Small">
+  <img
+    src="./images/ioT3D.png"
+    title="3D printing attempts and drafts"
+    alt="3D printing attempts and drafts"
+  />
+  <figCaption> 3D printing attempts and drafts</figCaption>
+</div>
 
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a <b>tag</b>.
-```
+### Results
+Finally, the components were packaged, connected and tested in a real environment, through the feedback components as well as the mobile application, were the final results can be seen in the
+following figures.
 
-### JSX
-
-```jsx
-import React from "react";
-import { ThemeProvider } from "theme-ui";
-import theme from "./theme";
-
-export default props => (
-  <ThemeProvider theme={theme}>{props.children}</ThemeProvider>
-);
-```
-
-## Blockquotes
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
-## Horizontal Rule
-
-Horizontal Rule
-
-Three or more...
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-
----
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+<div className="Image__Small">
+  <img
+    src="./images/ioTFinal.png"
+    title="IoT final result"
+    alt="IoT final result"
+  />
+  <figCaption> Final Prototype (Front)</figCaption>
+</div>
