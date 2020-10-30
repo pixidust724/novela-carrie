@@ -32,7 +32,7 @@ When I first come to the company, there are some problems with the online shop w
     title="myicellar website ui"
     alt="myicellar website ui"
   />
-  <figCaption>Preparing user interface design assest for development team</figCaption>
+  <figCaption> Preparing user interface design assest for development team </figCaption>
 </div>
 
 <div className="Image__Small">
@@ -41,7 +41,7 @@ When I first come to the company, there are some problems with the online shop w
     title="myicellar website compare"
     alt="myicellar website compare"
   />
-  <figCaption>The final result of old and new shop landing</figCaption>
+  <figCaption> The final result of old and new shop landing </figCaption>
 </div>
 
 ### Product Management - New Features Launch and App Testing
@@ -53,7 +53,7 @@ Being a product manager, allows me to learn shifting a design-only mindset to lo
     title="UI check screen explaination"
     alt="UI check screen explaination"
   />
-  <figCaption>UI check screen explaination</figCaption>
+  <figCaption> UI check screen explaination </figCaption>
 </div>
 
 <div className="Image__Small">
@@ -96,7 +96,7 @@ Another project is MyiCellar cooperating with a local art gallery for a charity 
     title="myicellar wine gallery"
     alt="myicellar wine gallery"
   />
-  <figCaption>Wine tasting with local Hong Kong Art Gallery</figCaption>
+  <figCaption> Wine tasting with local Hong Kong Art Gallery </figCaption>
 </div>
 
 <div className="Image__Small">
@@ -105,7 +105,7 @@ Another project is MyiCellar cooperating with a local art gallery for a charity 
     title="myicellar wine taste"
     alt="myicellar wine taste"
   />
-  <figCaption>Visitors doing wine tasting and meeting all the wine makers from different region</figCaption>
+  <figCaption> Visitors doing wine tasting and meeting all the wine makers from different region </figCaption>
 </div>
 
 <div className="Image__Small">
@@ -114,5 +114,5 @@ Another project is MyiCellar cooperating with a local art gallery for a charity 
     title="myicellar wine auction"
     alt="myicellar wine auction"
   />
-  <figCaption>Wine auction event night with Vino Condiviso</figCaption>
+  <figCaption> Wine auction event night with Vino Condiviso </figCaption>
 </div>
