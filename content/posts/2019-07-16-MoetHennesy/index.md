@@ -102,5 +102,4 @@ We believed that a Digital Wine Menu could be seamlessly adopted and a digital m
 We believe the impact could be much higher for example it is eco-friendly, allow online marketing campaign, create an inventory-less restaurants and it can be the first online point of sales from restaurants.
 
 ### Outlook
-
 MHD and GAA really like our solution and we became one of the shortlisted finalist. This experience of taking part in the acceleration programme has benefit my learning curve a lot in terms of gaining the business perspectives and insights. The acceleration programme also comes with a series of intensive training, from there I was able to take part in many entrepreneurship lesson, from corporate taxation, funding and digital marketing. I would like to thank you MyiCellar allow me to take the lead and driving this project.
