@@ -55,3 +55,15 @@ In this student job, I was able to suggest and implement the chosen digital sign
   />
     <figCaption>Final installation with the help from my colleague</figCaption>
 </div>
+
+### Participatory Design
+It was also a precious chance for me to experience Participatory Design (PD) in this student job. PD is a research methodology that includes all the stakeholders at the early design and prototype process. Since we are cooperating with nebenan.de in this project, therefore, we want to find out if the inhabitants at Puderbach like to use it and whether they know how to use it. 
+
+<div className="Image__Small">
+  <img
+    src="./images/digiDom_research.jpg"
+    title="digiDom research"
+    alt="digiDom research"
+  />
+  <figCaption>Teaching members to use nebenan.de</figCaption>
+</div>

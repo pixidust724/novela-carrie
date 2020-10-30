@@ -1,11 +1,11 @@
----
+<!-- ---
 title: FoodWalker
 author: Carrie Lau
 date: 2020-02-02
 hero: ./images/foodWalkerCover.png
 excerpt: Funding my own startup with another partner. FoodWalker is a B2B food sourcing platform.
----
-Detailed documentation is coming soon...
+--- -->
+<!-- Detailed documentation is coming soon... -->
 <!-- My first post using `@narative/gatsby-theme-novela`. Novela is built by the team at [Narative](https://narative.co), and built for everyone that loves the web.
 
 ## Headers

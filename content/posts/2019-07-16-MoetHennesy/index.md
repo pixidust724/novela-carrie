@@ -63,6 +63,17 @@ Moët Hennessy is the Wines and Spirits division of LVMH. The group of 25 wines 
 </div>
 
 ### Solution
+**Digital Wine Menu** was presented in this acceleration programme. Traditional wine menu is confusing and does not provide further information for example the most important for wine and dine is the wine pairing experience. 
+
+<div className="Image__Small">
+  <img
+    src="./images/mhOnePage.png"
+    title="Moët Hennesy One Pager"
+    alt="Moët Hennesy One Pager"
+  />
+</div>
+
+
 <div className="Image__Large">
   <img
     src="./images/wineMenu.png"
@@ -71,7 +82,7 @@ Moët Hennessy is the Wines and Spirits division of LVMH. The group of 25 wines 
   />
 </div>
 
-**Digital Wine Menu** was presented in this acceleration programme. Traditional wine menu is confusing and does not provide further information for example the most important for wine and dine is the wine pairing experience. 
+
 
 ### Problem Statement
 Base on the exisiting problem of traditional wine menu, we have come up with few HMW questions: 
