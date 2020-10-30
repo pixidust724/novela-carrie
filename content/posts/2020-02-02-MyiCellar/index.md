@@ -1,5 +1,5 @@
 ---
-title: e-Commerce of wine industry
+title: B2C Wine Cellar - online e-Commerce
 author: Carrie Lau
 date: 2020-02-02
 hero: ./images/myiCellar.png
