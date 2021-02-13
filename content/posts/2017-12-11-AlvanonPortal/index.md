@@ -7,6 +7,10 @@ excerpt: Alvanon is an innovative company in apparel industry that make clothes 
 ---
 Alvanon is an innovative company in the apparel industry that makes clothes fit better and create sustainable processes; [Alvanon Body Platform](https://abp.alvanon.com/) serves as the central database of virtual bodies offering 3D fit standards AlvaForms model created by Alvanon for the global apparel industry. Operating on all collaborating 3D software systems.
 
+<div className="Image__Small">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xO0KrN0pxos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 Traditional fashion company like Alvanon has acknowledged to the power of digitalization and understood that the traditional way of shipping brand’s target customers’ body shapes and sizes is not enough. Therefore, a 3D avatar can enable brands and retailers to eliminate costs from physical fittings and sampling in the early stages while being compatible with most 3D garment simulation systems (Browzwear, Lectra, Optitex, Gerber, Clo3D).
 
 ### Example site-map
