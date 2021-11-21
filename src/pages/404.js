@@ -11,7 +11,8 @@ function NotFoundPage() {
       <SEO />
       <Section>
         <div style={{ marginTop: "100px" }}>
-          <Headings.h1>404: Oops! Are you lost? I got you.</Headings.h1>
+          <Headings.h1>404: Oops! Are you lost? <br></br><br></br>
+          I got you. 🔦</Headings.h1>
         </div>
       </Section>
     </Layout>
