@@ -5,7 +5,7 @@ module.exports = {
     siteUrl: `https://carrielau.com/`,
     description: `PSM, Project Manager, UX/UI Designer, Web Designer and software enginner, open to job in Germany`,
     hero: {
-      heading: `Hello, I'm Carrie. From 🇭🇰 currently in 🇩🇪, researching about (In)tangible Cultural Heritage Education with XR and LLMs at Technical University of Munich  `,
+      heading: `Hello, I'm Carrie. From 🇭🇰 currently in 🇩🇪, researching about (In)tangible Cultural Heritage Education with XR at Technical University of Munich  `,
       maxWidth: 652,
     },
     social: [
